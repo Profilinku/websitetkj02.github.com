@@ -1,0 +1,188 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #FAFAFF1A;
+  overflow: hidden;
+  font-size: 15px;
+  max-width: 100%;
+  height: auto;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+nav a:hover {
+  background-color: #4A4A4A;
+  color: white;
+}
+
+header {
+  color: #DDDDDD;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 10px 5px 19px -1px rgba(65, 65, 65, 1);
+  background-color: #FAFAFF12;
+  border-radius: 0.50rem;
+  font-family: 'Teko', sans-serif;
+  max-width: 100%;
+  height: auto;
+  font-size: 20px;
+}
+
+.comment {
+  background: white;
+  padding: 20px;
+  font-family: monospace;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 0 5px #000;
+}
+
+.head {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.text {
+  margin: 10px 0;
+  font-family: sans-serif;
+  font-size: 0.9em;
+}
+
+.commentbox {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.commentbox > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.content {
+  width: 100%;
+}
+
+.user {
+  border: none;
+  outline: none;
+  margin: 5px 0;
+  color: #808080;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.commentinput {
+  border: none;
+  padding: 10px;
+  padding-left: 0;
+  outline: none;
+  border-bottom: 2px solid blue;
+  margin-bottom: 10px;
+  width: 95%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #808080;
+}
+
+.buttons button {
+  padding: 5px 10px;
+  background: lightgray;
+  color: #808080;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.buttons button.abled {
+  background: blue;
+  color: #fff;
+}
+
+.policy {
+  margin: 20px 0;
+  font-size: 0.8em;
+  font-family: arial, sans-serif;
+  color: #808080;
+}
+
+.policy a {
+  text-decoration: none;
+  color: blue;
+}
+
+.notify {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.notify > input {
+  margin-right: 5px;
+}
+
+.parents {
+  font-family: arial, sans-serif;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.parents h1 {
+  font-size: 0.9em;
+}
+
+.parents p {
+  margin: 10px 0;
+  font-size: 0.9em;
+}
+
+.parents > img {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.engagements {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px
+}
+.engagements > img {
+  width: 5%;
+ 
+}
+.engagements img:nth-child(1) {
+  margin-right: 10px;
+  width: 25px;
+}
+
+.date {
+  color: #808080;
+  font-size: 0.8em;
+}
